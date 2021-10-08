@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCard_MVC", "DevCard_MVC\DevCard_MVC.csproj", "{7ACB8132-66E4-47F4-B394-5339EC3B5582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ACB8132-66E4-47F4-B394-5339EC3B5582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACB8132-66E4-47F4-B394-5339EC3B5582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACB8132-66E4-47F4-B394-5339EC3B5582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACB8132-66E4-47F4-B394-5339EC3B5582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEAC5AE7-6F3B-442F-AB72-E66B2A6E3051}
+	EndGlobalSection
+EndGlobal
