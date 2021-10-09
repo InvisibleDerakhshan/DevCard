@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C039PieoyB5KZrVJUqROWi5ewocxSESUsBChmYxLmbcAM7E6/w93o5VRgH8FEU8GrVvfXWLkF4DB0vGUkqpQMQ==",
+  "dgSpecHash": "bDkYCdIZjNobJ5mmr7HVYyRUKyGBvY2Vew7hlnWAqnu4MBALmq+RtDxupoz9XIWFvRvV6aiXVw38axW7AGCpjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\moham\\source\\repos\\DevCard\\DevCard_MVC\\DevCard_MVC.csproj",
   "expectedPackageFiles": [
@@ -111,8 +111,7 @@
     "C:\\Users\\moham\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+    "C:\\Users\\moham\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
