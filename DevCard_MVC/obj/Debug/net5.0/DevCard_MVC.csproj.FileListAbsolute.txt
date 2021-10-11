@@ -114,4 +114,7 @@ C:\Users\moham\source\repos\DevCard\DevCard_MVC\bin\Debug\net5.0\zh-Hant\Microso
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
-C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Projects.cshtml.g.cs
+C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Home\Components\Projects\_Projects.cshtml.g.cs
+C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Components\LatestArticles\_LatestArticles.cshtml.g.cs
+C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Header.cshtml.g.cs
+C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
