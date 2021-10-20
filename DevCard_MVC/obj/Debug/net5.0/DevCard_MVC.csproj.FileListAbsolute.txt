@@ -36,7 +36,6 @@ C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\DevCard_MVC.pdb
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\DevCard_MVC.genruntimeconfig.cache
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\DevCard_MVC.csproj.CopyComplete
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\DevCard_MVC.csproj.AssemblyReference.cache
-C:\Users\moham\source\repos\DevCard\DevCard_MVC\obj\Debug\net5.0\staticwebassets\DevCard_MVC.StaticWebAssets.xml
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\bin\Debug\net5.0\Humanizer.dll
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\moham\source\repos\DevCard\DevCard_MVC\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
