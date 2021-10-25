@@ -54,15 +54,15 @@ namespace DevCard_MVC.Controllers
         //    return RedirectToAction("Contact", "Home");
         //}
 
-        public IActionResult Index()
-        {
-            //return new OkResult();
-            //return new NotFoundResult();
-            //return new BadRequestResult();
-            //return new  NoContentResult();
-            return new StatusCodeResult(401);
+        //public IActionResult Index()
+        //{
+        //    //return new OkResult();
+        //    //return new NotFoundResult();
+        //    //return new BadRequestResult();
+        //    //return new  NoContentResult();
+        //    return new StatusCodeResult(401);
 
-        }
+        //}
 
 
     }
