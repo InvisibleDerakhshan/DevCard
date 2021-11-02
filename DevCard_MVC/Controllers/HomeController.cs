@@ -1,6 +1,7 @@
 ﻿using DevCard_MVC.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -12,12 +13,16 @@ namespace DevCard_MVC.Controllers
 {
     public class HomeController : Controller
     {
-       
 
-        public HomeController()
+
+        private readonly List<Service> Services = new List<Service> 
         {
-           
-        }
+            new Service (1 , "نقره ای"),
+            new Service (2 ,"طلایی"),
+            new Service (3 ,"پلاتین"),
+            new Service(4 ,"الماس"),
+            
+        };
 
         public IActionResult Index()
         {
@@ -28,8 +33,11 @@ namespace DevCard_MVC.Controllers
         [HttpGet]
         public IActionResult Contact()
         {
-            var model = new Contact();
-            return View();
+            var model = new Contact
+            {
+                Services = new SelectList(Services,"Id","Name")
+            };
+            return View(model);
         }
 
         //[HttpPost]
@@ -38,12 +46,35 @@ namespace DevCard_MVC.Controllers
         //    var name = form["name"];
         //    return Json(Ok());
         //}
+        //[HttpPost]
+        //public JsonResult Contact(Contact form)//زمانی استفاده میکنیم که دقیقا میدونیم چه فیلد هایی میخوایم
+        //{
+        //    Console.WriteLine(form.ToString());
+        //    return Json(Ok());
+        //}// miad baar asas name form ma field hamon ro map mikone be formemon ke mign binding
+
         [HttpPost]
-        public JsonResult Contact(Contact form)//زمانی استفاده میکنیم که دقیقا میدونیم چه فیلد هایی میخوایم
+        
+        public IActionResult Contact(Contact model)
         {
-            Console.WriteLine(form.ToString());
-            return Json(Ok());
-        }// miad baar asas name form ma field hamon ro map mikone be formemon ke mign binding
+            model.Services= new SelectList(Services,"Id","Name");
+            //if (ModelState.IsValid == false) ;
+            if (!ModelState.IsValid)
+            {
+                ViewBag.error = "اطلاعات وارد شده صحیح نیست ، لطفا دوباره تلاش کنید";
+                return View(model);
+            }
+            ModelState.Clear();
+            model = new Contact
+            {
+                Services = new SelectList(Services, "Id", "Name")//ba in kar oon proprety ha pak mishan va clear ham ke hast badesh barmigarde safhe aval
+            };
+            ViewBag.success = "پیغام شما با موفقیت ارسال شد ، با تشکر";
+            return View(model);
+            //return RedirectToAction("Index");
+            
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
